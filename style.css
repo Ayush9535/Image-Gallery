@@ -1,0 +1,68 @@
+
+h1{
+    margin-left: 37%;
+}
+
+.grid1{
+    margin-left: 23%;
+    margin-top: 70px;
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color:antiquewhite;
+}
+
+.item-1{
+    /* background-color: lightcoral; */
+    background-image: url("https://th.bing.com/th/id/OIP.cVpB755JMibOqRY0X3eJYAHaE8?w=255&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 1;
+
+}
+.item-2{
+    /* background-color: lightcoral; */
+    background-image: url("https://th.bing.com/th/id/OIP.0w79g5iDRYQTeLCG-WoewAHaLH?w=129&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 1/3;
+    
+}
+.item-3{
+    /* background-color: lightcoral; */
+    background-image: url("https://th.bing.com/th/id/OIP.lVI_CoIRV48VwZEsZaa5swHaE8?w=295&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item-4{
+    /* background-color: lightcoral; */
+    background-image: url("https://th.bing.com/th/id/OIP.-KEoUXqLrlau-_qpiOI3LgHaLG?w=208&h=305&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 2/4;
+}
+.item-5{
+    /* background-color: lightcoral; */
+    background-image: url("https://th.bing.com/th/id/OIP.B5V8KcrF4UDG1cCa0BgHQAHaG4?w=213&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 3;
+}
+.item-6{
+    /* background-color: lightcoral; */
+    background-image: url("https://th.bing.com/th/id/OIP.9P5HsD7sYpV7FqSs2H94VgHaLG?w=204&h=374&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 2/4;
+}
+
